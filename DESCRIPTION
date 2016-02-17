@@ -5,6 +5,5 @@ Version: 0.1
 Date: 2016-02-17
 Author: Palmar Thorsteinsson
 Maintainer: Palmar Thorsteinsson <palmar.thorsteinsson@gmail.com>
-Description: This package allow you to store metadata as attributes for data
-frames.
+Description: This package allow you to store metadata as attributes for data frames.
 License: GPL-3
