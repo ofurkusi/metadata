@@ -23,7 +23,7 @@ library(metadata)
 
 ## Using metadata ##
 
-Load or create your dataset, in this case a sample ``df`` data.frame is
+Load or create your dataset, in this case a sample ``df`` data.frame is
 created and some metadata added.
 
 ````{r}
