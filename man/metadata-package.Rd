@@ -28,7 +28,7 @@ Author and maintainer: Palmar Thorsteinsson <palmar.thorsteinsson@gmail.com>
 \keyword{datasets, package}
 \seealso{
 %~~ Optional links to other man pages, e.g. ~~
-\code{\link{Hmisc}}, also the built in function \code{comment}
+\code{\link{Hmisc}}, \code{\link{dspl-r}}, also the built in function \code{comment}
 }
 \examples{
 
