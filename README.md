@@ -14,7 +14,7 @@ by using `devtools`. First install and load `devtools`:
 install.packages("devtools")
 library(devtools)
 ````
-Once `devtools` has been loaded, `limestats` can be installed and loaded with:
+Once `devtools` has been loaded, `metadata` can be installed and loaded with:
 
 ````{r}
 install_github("ofurkusi/metadata")
@@ -88,6 +88,17 @@ starships <- read.csv("starships.csv")
 metadata(starships) <- yaml.load_file("metadata.yml")
 ````
 
+
+## Describing data ##
+
+While ``metadata`` does not suggest or require any particular format of the
+metadata, there do exist some prominent vocabularies for describing data. For
+examples see:
+ - The [Schema.org](http://schema.org) schema for a [Dataset](http://schema.org/Dataset)
+ - The [JSON-stat](https://json-stat.org) [StatisticalTable](https://json-stat.org/schema/) schema
+ - The [Statistical Data and Metadata eXchange](https://sdmx.org) (SDMX) Technical Specification
+ - The [PX file format specification](http://www.scb.se/Upload/PC-Axis/Support/Documents/PX-file_format_specification_2013.pdf) (PC-Axis)
+ - Google's [Dataset Publishing Language](https://developers.google.com/public-data/overview) (DSPL)
 
 
 ## License ##
